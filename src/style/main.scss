@@ -1,0 +1,16 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+header {
+	background: url('images/header.png') no-repeat center;	
+	text-transform: uppercase;
+	color: #fff;			
+}
+.wrapper {
+	max-width: 944px;
+	margin: 0 auto;
+}

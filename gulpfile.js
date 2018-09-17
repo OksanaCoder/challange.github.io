@@ -69,6 +69,7 @@ gulp.task('images', function () {
 		    imagemin.svgo({
 				plugins: [
 					{
+
 						removeViewBox: true
                     },
 					{
@@ -107,7 +108,6 @@ gulp.task('watch', function () {
 	gulp.watch(path.watch.css, ['styles']);
 	gulp.watch(path.watch.img, ['images']);
 	gulp.watch(path.watch.js, ['scripts']);
-	gulp.watch(path.watch.html, ['hmtl']);
 	gulp.watch(path.watch.html, browserSync.reload);
 	gulp.watch(path.watch.style, browserSync.reload);
 	gulp.watch(path.watch.js, browserSync.reload);
